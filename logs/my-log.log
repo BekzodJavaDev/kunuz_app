@@ -1,0 +1,27 @@
+2022-07-03 19:17:33  INFO  - com.company.KunuzAppApplication  - Starting KunuzAppApplication using Java 17.0.3 on MacBook-Pro-Qoraxonov.local with PID 8542 (/Users/qoraxonovbekzod/Desktop/kunuz_app/kunuz_app/target/classes started by qoraxonovbekzod in /Users/qoraxonovbekzod/Desktop/kunuz_app/kunuz_app)
+2022-07-03 19:17:33  INFO  - com.company.KunuzAppApplication  - The following 1 profile is active: "dev"
+2022-07-03 19:17:33  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-03 19:17:33  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 25 ms. Found 16 JPA repository interfaces.
+2022-07-03 19:17:33  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http)
+2022-07-03 19:17:33  INFO  - org.apache.catalina.core.StandardService  - Starting service [Tomcat]
+2022-07-03 19:17:33  INFO  - org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-03 19:17:33  INFO  - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]  - Initializing Spring embedded WebApplicationContext
+2022-07-03 19:17:33  INFO  - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 592 ms
+2022-07-03 19:17:33  INFO  - org.hibernate.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-03 19:17:33  INFO  - org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-03 19:17:34  INFO  - org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-03 19:17:34  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Starting...
+2022-07-03 19:17:35  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Start completed.
+2022-07-03 19:17:35  INFO  - org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-03 19:17:35  WARN  - org.hibernate.id.UUIDHexGenerator  - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-07-03 19:17:38  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-03 19:17:38  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_2eg0kp0p6jl591y6kxa5rin4k" of relation "category" does not exist, skipping
+2022-07-03 19:17:38  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-03 19:17:38  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_rowmgxnx4ltnki0cpq1yfkd7d" of relation "region" does not exist, skipping
+2022-07-03 19:17:39  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-03 19:17:39  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_pyxrtvd86otyiiulccf7to5p" of relation "type" does not exist, skipping
+2022-07-03 19:17:41  INFO  - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-03 19:17:41  INFO  - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-03 19:17:41  WARN  - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 19:17:41  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-03 19:17:42  INFO  - com.company.KunuzAppApplication  - Started KunuzAppApplication in 8.981 seconds (JVM running for 9.48)
